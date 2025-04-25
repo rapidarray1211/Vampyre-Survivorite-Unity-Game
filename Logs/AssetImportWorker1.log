@@ -1,0 +1,953 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32670 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Jeff/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53330
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Jeff/My project
+C:/Users/Jeff/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26032]  Target information:
+
+Player connection [26032]  * "[IP] 192.168.111.49 [Port] 0 [Flags] 2 [Guid] 1488202331 [EditorId] 1488202331 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0DSPRMH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26032]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1488202331 [EditorId] 1488202331 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0DSPRMH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26032] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26032] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jeff/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003667 seconds.
+- Loaded All Assemblies, in  0.451 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 809ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.066 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (608ms)
+		LoadAssemblies (430ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (194ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1067ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (892ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (617ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6568 unused Assets / (4.5 MB). Loaded Objects now: 7280.
+Memory consumption went from 182.9 MB to 178.4 MB.
+Total: 11.109900 ms (FindLiveObjects: 1.228000 ms CreateObjectMapping: 0.818000 ms MarkObjects: 6.032000 ms  DeleteObjects: 3.030600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22065.978936 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1526cf67c1d1aaa9a72597cdbc7bb0b0') in 0.0285028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3ee85287093c2e01e2184a29fd3edf') in 0.0010941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.022879 seconds.
+  path: Assets/BluBlu Games/2D Animated Skeletons/Characters/skeleton rotten.psb
+  artifactKey: Guid(0f6639ad26652b94899a70bfa1ad30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluBlu Games/2D Animated Skeletons/Characters/skeleton rotten.psb using Guid(0f6639ad26652b94899a70bfa1ad30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94c30e417f11dd363fcedb44ff351535') in 0.6524418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 132
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BluBlu Games/2D Animated Skeletons/Characters/skeleton with sword.psb
+  artifactKey: Guid(8889158ec959514479a7036c66a835a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluBlu Games/2D Animated Skeletons/Characters/skeleton with sword.psb using Guid(8889158ec959514479a7036c66a835a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a7f271bbee70870ec0b60679aa95800') in 0.1225578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.758751 seconds.
+  path: Assets/BluBlu Games/2D Animated Skeletons/Prefabs/skeleton rotten.prefab
+  artifactKey: Guid(1750a79856555ef4eabd51ea7a826879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluBlu Games/2D Animated Skeletons/Prefabs/skeleton rotten.prefab using Guid(1750a79856555ef4eabd51ea7a826879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25fc2ec39a440cfae2d75abb998b0acb') in 0.0363767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 265
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.255235 seconds.
+  path: Assets/BluBlu Games/2D Animated Skeletons/Sprites/sword.psd
+  artifactKey: Guid(b227785acc3f2a44bae87e3dfe47dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BluBlu Games/2D Animated Skeletons/Sprites/sword.psd using Guid(b227785acc3f2a44bae87e3dfe47dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '997dbf0b1866d3132a5dd6302ee7829b') in 0.0299146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.584848 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_side.prefab
+  artifactKey: Guid(a50017381d68405baca692442d73a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_side.prefab using Guid(a50017381d68405baca692442d73a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c764e616996cc191a7e2695b51f76029') in 0.0795079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 151
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bow_walk_up.prefab
+  artifactKey: Guid(32ae16ca001047b88cd0e0ecd96e6a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bow_walk_up.prefab using Guid(32ae16ca001047b88cd0e0ecd96e6a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd39044e1aa3d0816a972732efe8b248') in 0.0208663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/gun_up.prefab
+  artifactKey: Guid(7b048b0bf3af44f9984fa1a1db499663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/gun_up.prefab using Guid(7b048b0bf3af44f9984fa1a1db499663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a03dcd2fae6baa0224a404b6165c88d1') in 0.0213025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/idle_up.prefab
+  artifactKey: Guid(b0a3b9f42fa34cb8add83fb3b4573324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/idle_up.prefab using Guid(b0a3b9f42fa34cb8add83fb3b4573324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfaa89cd8aae7a161bad42123e26860e') in 0.0207983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/slide_down.prefab
+  artifactKey: Guid(cf1a71edae7c4793ac1d5c8509d0e49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/slide_down.prefab using Guid(cf1a71edae7c4793ac1d5c8509d0e49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeead78f6317ee5488f39ea7a4cff626') in 0.0248455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/walk_down.prefab
+  artifactKey: Guid(20e3525405c849f2a8ec7ad19bd0d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/walk_down.prefab using Guid(20e3525405c849f2a8ec7ad19bd0d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cedb98ad032fd02330f24130317540c') in 0.0266815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_up.prefab
+  artifactKey: Guid(a21082c301154a0082855ddf94161833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_hold_up.prefab using Guid(a21082c301154a0082855ddf94161833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b75f1599e5627473cd171a948fc1f40') in 0.0277784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_idle_down.prefab
+  artifactKey: Guid(2b7276e6a28f4e46bfa50a6ddbefbbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_idle_down.prefab using Guid(2b7276e6a28f4e46bfa50a6ddbefbbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2284d6938831176213a37ada38484883') in 0.0375754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_walk_up.prefab
+  artifactKey: Guid(5c4e6020b2394d718b21321892ba05c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_walk_up.prefab using Guid(5c4e6020b2394d718b21321892ba05c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39e3454e2ff57d429acd195a5e41a19c') in 0.0216955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 99
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/gun_down.prefab
+  artifactKey: Guid(d39526699aac4c2fb9b6dd5d737f5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/gun_down.prefab using Guid(d39526699aac4c2fb9b6dd5d737f5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31fad781b3a8c611556a8d6cf8a2de17') in 0.0165809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/vanish.prefab
+  artifactKey: Guid(b0f5645256bb484ca7a038c5c1f93ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/vanish.prefab using Guid(b0f5645256bb484ca7a038c5c1f93ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '783215cce798aa109ba4c0bac544ed9e') in 0.0216529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/rifle_walk_side.prefab
+  artifactKey: Guid(9b0dae04cbeb49879de2383cd4b20f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/rifle_walk_side.prefab using Guid(9b0dae04cbeb49879de2383cd4b20f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91fc15dabef78ff10ab8debc8f0045a') in 0.0249232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hit_A_up.prefab
+  artifactKey: Guid(9ba898765b764f26a79216096eca21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hit_A_up.prefab using Guid(9ba898765b764f26a79216096eca21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41059fad852d5fd465fd45a1421b4d37') in 0.0196841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_idle_side.prefab
+  artifactKey: Guid(7edcc74d1c5d4ef0b69f3b6f5b316ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_idle_side.prefab using Guid(7edcc74d1c5d4ef0b69f3b6f5b316ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2683023a8dc1d2313dd0c51729841602') in 0.0172505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/rifle_walk_up.prefab
+  artifactKey: Guid(b9579ab0704d4894b6404d0ca6c73eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/rifle_walk_up.prefab using Guid(b9579ab0704d4894b6404d0ca6c73eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82827cc7a460732dca80678f641ebd16') in 0.0182453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/duck_up.prefab
+  artifactKey: Guid(18278a2e13ed42cfa3316628676109c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/duck_up.prefab using Guid(18278a2e13ed42cfa3316628676109c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fea0812b5c2b1a4d93fc91fdbf2a7fdf') in 0.0186342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/crawl_side.prefab
+  artifactKey: Guid(4fca805001634787839d33bd60839a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/crawl_side.prefab using Guid(4fca805001634787839d33bd60839a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f87724abf1bd80cd849a09693ec49e') in 0.0199919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/idle_down.prefab
+  artifactKey: Guid(652c47585d8e4ad79b4c4416a8c4aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/idle_down.prefab using Guid(652c47585d8e4ad79b4c4416a8c4aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '197519bec6998199ba51f65b5797c938') in 0.0191591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/scythe_attack_up.prefab
+  artifactKey: Guid(d5cc17de1b1f4f519b7ebcada3cfd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/scythe_attack_up.prefab using Guid(d5cc17de1b1f4f519b7ebcada3cfd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfffd216a750a33aeaf23a087936761f') in 0.0222368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/jump_up.prefab
+  artifactKey: Guid(c70d80d135ff46af89b93b15899a8b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/jump_up.prefab using Guid(c70d80d135ff46af89b93b15899a8b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40f490c83cd40b2e16b731818683f70b') in 0.0201814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hammer_attack_side.prefab
+  artifactKey: Guid(2e127c7ae05d484bb5433700dc82b236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hammer_attack_side.prefab using Guid(2e127c7ae05d484bb5433700dc82b236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62078362e2beb4e5fdc8e5af4b84f13d') in 0.0506478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/gun_walk_down.prefab
+  artifactKey: Guid(c6e5219321f64ab9909ade59c0e0c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/gun_walk_down.prefab using Guid(c6e5219321f64ab9909ade59c0e0c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874a9b967f72acb322f22dd92b3fc2d9') in 0.0224701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hit_A_down.prefab
+  artifactKey: Guid(f8c2f30a4db74c9fb5146414e3f3a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hit_A_down.prefab using Guid(f8c2f30a4db74c9fb5146414e3f3a844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32d6db62ec61d9e37eeba9540511efa7') in 0.0182816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_throw_down.prefab
+  artifactKey: Guid(a802e56841884c2b86af18ffb09956e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_throw_down.prefab using Guid(a802e56841884c2b86af18ffb09956e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bd536d75cf6c4e8a40057e3a08aeaf7') in 0.0203609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/Deco_02.prefab
+  artifactKey: Guid(e0f6ed429728430685e092f1ed9669cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/Deco_02.prefab using Guid(e0f6ed429728430685e092f1ed9669cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24e671b8c43e08f010c14c32c08d75e5') in 0.0182547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/bullet_rifle.prefab
+  artifactKey: Guid(d232abbf9b884bbba5b05e9019371410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/bullet_rifle.prefab using Guid(d232abbf9b884bbba5b05e9019371410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81340674fd32b3f7eb37a6ca423e566c') in 0.0177771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_throw_side.prefab
+  artifactKey: Guid(d84f9b6fbaa547e7aea23ee26301bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bomb_throw_side.prefab using Guid(d84f9b6fbaa547e7aea23ee26301bcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94be6f1444e2810055411ce791ba2584') in 0.0193291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/walk_up.prefab
+  artifactKey: Guid(021c566332f74ed8892fa089158cb33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/walk_up.prefab using Guid(021c566332f74ed8892fa089158cb33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e49ed0f95d2818e0802a8e2fd44ee7bc') in 0.0191526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/bullet_gun.prefab
+  artifactKey: Guid(a73e9136e9c448d6859936e6b642c01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/bullet_gun.prefab using Guid(a73e9136e9c448d6859936e6b642c01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c11c28e1ad029ab9ea5f3a3ab6867d6') in 0.0178809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hammer_attack_down.prefab
+  artifactKey: Guid(106e0089045d4be6b304a88b76e26d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hammer_attack_down.prefab using Guid(106e0089045d4be6b304a88b76e26d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39730698bad82a567e0acbff1048daf2') in 0.0352804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 169
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_attack_down.prefab
+  artifactKey: Guid(45d43b9cc2574410b25f55aa72b4df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_attack_down.prefab using Guid(45d43b9cc2574410b25f55aa72b4df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4d7efb30bbf7cc773bec66aa0410148') in 0.0246501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/run_down.prefab
+  artifactKey: Guid(7e078a7d93fe4c2b90088e0b43cd2ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/run_down.prefab using Guid(7e078a7d93fe4c2b90088e0b43cd2ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90329790474bbfbee12eed6dc32489c1') in 0.016812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hammer_attack_up.prefab
+  artifactKey: Guid(721188b7bc7e45f19b7f39e37f6d72e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/hammer_attack_up.prefab using Guid(721188b7bc7e45f19b7f39e37f6d72e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9c3507aadc5aea32a42ccca2888f3d7') in 0.0255929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 115
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/run_side.prefab
+  artifactKey: Guid(ae641bf03c17480e9f670771e7fcfd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/run_side.prefab using Guid(ae641bf03c17480e9f670771e7fcfd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40a71e70f22a8b43cfc3cad2ae8190b7') in 0.0180878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bow_walk_side.prefab
+  artifactKey: Guid(8ad4ac7b1c1f42aeb3ae862da3b02457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bow_walk_side.prefab using Guid(8ad4ac7b1c1f42aeb3ae862da3b02457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce2d25ab331a3464c9ffd4ff8a25eb2d') in 0.0272927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_6.asset
+  artifactKey: Guid(7040b1ada6034a15a5c2266fd9263991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_6.asset using Guid(7040b1ada6034a15a5c2266fd9263991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2918b01d02b43e1952aaaa36308a5c2c') in 0.0168125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_11.asset
+  artifactKey: Guid(48fdf59532e94b288307beab3223c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_11.asset using Guid(48fdf59532e94b288307beab3223c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30b334ff19cf1243314b04cc34ba9819') in 0.0169403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_19.asset
+  artifactKey: Guid(fd2f515cc31d46708cb26ff60843b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_19.asset using Guid(fd2f515cc31d46708cb26ff60843b1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4300e3bb0d37e9d4c722e89535dd4d0d') in 0.0186929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_43.asset
+  artifactKey: Guid(a8fd202c87054438811dd75536e27651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_43.asset using Guid(a8fd202c87054438811dd75536e27651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c48abeb7ad3740f144c9f6c0f38e9ce0') in 0.0188602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_42.asset
+  artifactKey: Guid(cffa84d491414799988fcf4c0c8cf334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_42.asset using Guid(cffa84d491414799988fcf4c0c8cf334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47bc94b18a2d3a67aa4b2ded4de3190f') in 0.0180539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_39.asset
+  artifactKey: Guid(6976603f03fb4b908816aff9b40d51b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_39.asset using Guid(6976603f03fb4b908816aff9b40d51b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0b2c710f2576e5eb8b05f50c864044c') in 0.0197538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_45.asset
+  artifactKey: Guid(a68227726e2c4a4f88f8f5509e2e9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_45.asset using Guid(a68227726e2c4a4f88f8f5509e2e9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '831499aa4f8cbea61cec86f2fa2195cc') in 0.0174924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_17.asset
+  artifactKey: Guid(172bd3fd3a874ae8b5429b331a34ce2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_17.asset using Guid(172bd3fd3a874ae8b5429b331a34ce2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad1346c384223f015939b723cbefd923') in 0.0170643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_57.asset
+  artifactKey: Guid(4d038c46d4eb4ff886e4d6dcc5325d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_57.asset using Guid(4d038c46d4eb4ff886e4d6dcc5325d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c871c17bf05bd43d4a0ccd901f9e98c') in 0.0137472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_55.asset
+  artifactKey: Guid(221d9ce699c04a6ea01611971d550f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_55.asset using Guid(221d9ce699c04a6ea01611971d550f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a4caf40b088c13459ced82e49b3445') in 0.0204488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_4.asset
+  artifactKey: Guid(db4fde475c494b1285b0acf32fe27cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_4.asset using Guid(db4fde475c494b1285b0acf32fe27cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bc85ee14c4309ddb4beadd146221cb1') in 0.0206746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_0.asset
+  artifactKey: Guid(87a8da31efdc4f67818597d5c1492eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_0.asset using Guid(87a8da31efdc4f67818597d5c1492eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ff303f828000e4472e1623c74f31c7') in 0.0190102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_2.asset
+  artifactKey: Guid(3d2197d5654b4c55add39bdc75d33e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_2.asset using Guid(3d2197d5654b4c55add39bdc75d33e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c2fa7d9ce9ebf789b9edfe39d78126b') in 0.0175984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_58.asset
+  artifactKey: Guid(74bbea6c4beb48b4a654423ed95fa233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_58.asset using Guid(74bbea6c4beb48b4a654423ed95fa233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '796533d733da27725c9ae03c473e7c7e') in 0.0200971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_37.asset
+  artifactKey: Guid(9470dba92c9a42f7b5ea8aae6d5d078a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_37.asset using Guid(9470dba92c9a42f7b5ea8aae6d5d078a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e07842e436347cdb1c3e381de2345ba') in 0.017846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_41.asset
+  artifactKey: Guid(a0d49e6df1e94b15aacafc4295f5ca6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_41.asset using Guid(a0d49e6df1e94b15aacafc4295f5ca6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f11c23682a47e3557cac6915072eb5') in 0.0171942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_26.asset
+  artifactKey: Guid(b4c9f16747f843979b83e621b8e0d4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_26.asset using Guid(b4c9f16747f843979b83e621b8e0d4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '718d21b0546ce47b01bfb0524cbe8faa') in 0.0177171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_7.asset
+  artifactKey: Guid(64698d1d0b7c4974bbd663a348d10e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_7.asset using Guid(64698d1d0b7c4974bbd663a348d10e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74ff775691a5044c722aa32cf9e545a') in 0.0161911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_34.asset
+  artifactKey: Guid(e503c230b62f49f3bb5642b9775d950a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_34.asset using Guid(e503c230b62f49f3bb5642b9775d950a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f27ab9e28249fc21e54b6402576b04f') in 0.0173294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_32.asset
+  artifactKey: Guid(1709dffc0cab48fc8776ebf926b8f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_32.asset using Guid(1709dffc0cab48fc8776ebf926b8f786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab333174ef62ef29477b24406493ae5') in 0.0175144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_36.asset
+  artifactKey: Guid(f640b9437c434d2ea43a5acc08292fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_36.asset using Guid(f640b9437c434d2ea43a5acc08292fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1835e395dab07f4bbb9437498e9fc32') in 0.0157716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_12.asset
+  artifactKey: Guid(2a97a1ea00244c38b8f4f636b312f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_12.asset using Guid(2a97a1ea00244c38b8f4f636b312f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da25e9b7dc6a16723f158880ab1ee592') in 0.0156266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_40.asset
+  artifactKey: Guid(94f6bb12d62d4e39bc0f7f4f7dfcd36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_40.asset using Guid(94f6bb12d62d4e39bc0f7f4f7dfcd36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a66f2923fbf74e84291d624b5ad5ae7b') in 0.0168375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_13.asset
+  artifactKey: Guid(f5da5297539b45308a159c8976c0e3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_13.asset using Guid(f5da5297539b45308a159c8976c0e3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5508ba6f86168b2d394f81ba163e14c6') in 0.0153609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_20.asset
+  artifactKey: Guid(c6c0e913a1a44f27b071edb39f7ba2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_20.asset using Guid(c6c0e913a1a44f27b071edb39f7ba2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761ba41a5535cde1fecef8a0fd45523a') in 0.0180066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_18.asset
+  artifactKey: Guid(cccdda95694d4070aa8716e0c15e1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_18.asset using Guid(cccdda95694d4070aa8716e0c15e1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07fb35f24c3f21aa9c0a96758bb3c797') in 0.0183622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_idle_up.prefab
+  artifactKey: Guid(c23098ac599f4c0abd507badd69335ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/sword_idle_up.prefab using Guid(c23098ac599f4c0abd507badd69335ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e14aed98614ad65d37b5206e9e0eb7') in 0.0179935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_54.asset
+  artifactKey: Guid(08cef5cc8463440ea8c0ad7ba4022333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_54.asset using Guid(08cef5cc8463440ea8c0ad7ba4022333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf1b281bb2eb75a2b2d17c797beccfeb') in 0.0172201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bow_down.prefab
+  artifactKey: Guid(59fddd5e2e2f4faaa044e6bfa84166da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/bow_down.prefab using Guid(59fddd5e2e2f4faaa044e6bfa84166da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '100edd887c8ad8c56654f4965635e086') in 0.0183921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Palette B.prefab
+  artifactKey: Guid(f7252e5d7cdf4874b4833d4f25c01f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Palette B.prefab using Guid(f7252e5d7cdf4874b4833d4f25c01f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf5d44c85e0ecf23f2e7196a8e3808cb') in 0.0355004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 129
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_23.asset
+  artifactKey: Guid(87fceab4a9ac491d8d95e5a2b98dae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_23.asset using Guid(87fceab4a9ac491d8d95e5a2b98dae99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b38f6b9e32f1ecb93043443cdeb28763') in 0.0196942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/scythe_idle_side.prefab
+  artifactKey: Guid(0610fac2cb7b44d4a5f5b1e1d8a3dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Character/scythe_idle_side.prefab using Guid(0610fac2cb7b44d4a5f5b1e1d8a3dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'befe63f44c7a54360ef7a5460049b62a') in 0.0212066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_35.asset
+  artifactKey: Guid(e96f5a87ba7c4baf85507d1695132460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_35.asset using Guid(e96f5a87ba7c4baf85507d1695132460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a264fe63f8b4756227fa3bc9d2428344') in 0.019371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_50.asset
+  artifactKey: Guid(14399d24c465438e93909d72b64da943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Tilemap/Tilemap_50.asset using Guid(14399d24c465438e93909d72b64da943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '149ae4371df3676a47be48651b7f0354') in 0.018921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/Block_01.prefab
+  artifactKey: Guid(ba9e7b85b1bc400899578d3d4af1bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Prefabs/Objects/Block_01.prefab using Guid(ba9e7b85b1bc400899578d3d4af1bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ea31a1ca5a980e7c4eb3c5f61a0415') in 0.0193763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.467089 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '910a3316ce45b604f98c2ad003aa3cfb') in 0.0010664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.566358 seconds.
+  path: Assets/UsedAssets/boss_enemy2_ice.prefab
+  artifactKey: Guid(f4d7aa1ba9531154790cdbf01b2dc5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/boss_enemy2_ice.prefab using Guid(f4d7aa1ba9531154790cdbf01b2dc5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '245b58dd0c867651b541eb5fd189342f') in 0.0281994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UsedAssets/BossAttackCircle 2.prefab
+  artifactKey: Guid(8a1b7089681e1f44daddf3556d7e9d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/BossAttackCircle 2.prefab using Guid(8a1b7089681e1f44daddf3556d7e9d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0765861ca381dc5fc623693ef000037') in 0.0140541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UsedAssets/LightningStrike.prefab
+  artifactKey: Guid(3e01d7cbb091e55419bcc0f0161243cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/LightningStrike.prefab using Guid(3e01d7cbb091e55419bcc0f0161243cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600d06117ff9dec0160b53912495bd2b') in 0.0173275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UsedAssets/MapIce.prefab
+  artifactKey: Guid(e679bad8dddd2724686b8f8f5d742ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/MapIce.prefab using Guid(e679bad8dddd2724686b8f8f5d742ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cb5a2a3e5d265109f36d080cccfdf87') in 0.0159169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UsedAssets/bullet_gun.prefab
+  artifactKey: Guid(ed550c4149e779e48b3e2f1f90c00bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/bullet_gun.prefab using Guid(ed550c4149e779e48b3e2f1f90c00bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ab18177853b22d390f1f9c3c66b986') in 0.0189095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UsedAssets/CrystalBullet.prefab
+  artifactKey: Guid(1b522148f4a6fd34183ece2e46f6dba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/CrystalBullet.prefab using Guid(1b522148f4a6fd34183ece2e46f6dba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b48328f6fde15e4aba46e95c3d352494') in 0.0179935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UsedAssets/Grenade.prefab
+  artifactKey: Guid(7a4e90755cd92b246b67e1e2bc8ceb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/Grenade.prefab using Guid(7a4e90755cd92b246b67e1e2bc8ceb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f290fd3a3fa2b9c535c32b889a5ff861') in 0.0186916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UsedAssets/yellow-lightning-png-31.png
+  artifactKey: Guid(654b58c7f2bf7f04b86f70b74a598a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/yellow-lightning-png-31.png using Guid(654b58c7f2bf7f04b86f70b74a598a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '109e8191b600760a79fbd94aad32260c') in 0.0214999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UsedAssets/rifle_walk_down.prefab
+  artifactKey: Guid(656b09611b1b979499ea16566aebfda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/rifle_walk_down.prefab using Guid(656b09611b1b979499ea16566aebfda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3107e2666b1e901e7cc1bcfbd24029e3') in 0.0186922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UsedAssets/rifle_walk_side.prefab
+  artifactKey: Guid(853632031a81b5349ae0d2463137b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/rifle_walk_side.prefab using Guid(853632031a81b5349ae0d2463137b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e32514a6a28d73925a8a0ed055ca9e0') in 0.0234539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UsedAssets/Wall.prefab
+  artifactKey: Guid(1c0d84db3ab97604bb9d41f4b8425aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/Wall.prefab using Guid(1c0d84db3ab97604bb9d41f4b8425aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29d321af33b3ba0753e1d5cbef76b98f') in 0.0169364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UsedAssets/melee_enemy.prefab
+  artifactKey: Guid(97eb8d7499534c409705860ec0a06bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/melee_enemy.prefab using Guid(97eb8d7499534c409705860ec0a06bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23fa3289d7e3f2ea6e7815fcfe98b8a0') in 0.0189886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UsedAssets/boss_enemy_ice.prefab
+  artifactKey: Guid(9c62b6b0e43326c4b885cf5047fbbbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UsedAssets/boss_enemy_ice.prefab using Guid(9c62b6b0e43326c4b885cf5047fbbbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0c095d04105502e4c2018e90f1bb638') in 0.0278813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 360
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.898 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.142 seconds
+Domain Reload Profiling: 2037ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (536ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (903ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (653ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6566 unused Assets / (4.2 MB). Loaded Objects now: 7366.
+Memory consumption went from 153.6 MB to 149.4 MB.
+Total: 12.451600 ms (FindLiveObjects: 1.156400 ms CreateObjectMapping: 1.141200 ms MarkObjects: 7.119800 ms  DeleteObjects: 3.032400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
